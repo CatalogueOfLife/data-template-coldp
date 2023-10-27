@@ -1,12 +1,11 @@
 # data-template-textree
-A template for [ChecklistBank](https://www.checklistbank.org) dataset repositories using the simple [TextTree format](https://github.com/gbif/text-tree).
+A template for [ChecklistBank](https://www.checklistbank.org) dataset repositories using the combined [ColDP format](https://github.com/CatalogueOfLife/coldp/blob/master/README.md).
 
 ## Files
-The main taxonomy tree lives in [taxonomy.txtree](taxonomy.txtree). 
-Information about the dataset as a whole and how to cite it is kept in metadata.yaml,
-while you can curate a list of structured references either in [BibTex](reference.bib) or [TSV format](reference.tsv). 
-References from this list can then be [cited in the taxonomy file](https://github.com/CatalogueOfLife/coldp/blob/master/docs/publishing-guide-txtree.md).
-Please remove unused files in your copy.
+The template uses the combined [NameUsage](https://github.com/CatalogueOfLife/coldp/blob/master/README.md#nameusage) file 
+and [BibTex](https://github.com/CatalogueOfLife/coldp/blob/master/README.md#reference-bibtex) for references.
+
+Not all ColDP entities have been included in the template, just the frequently used ones.
 
 BibTex content can be retrieved from CrossRef for most DOIs when known.
 For example by using curl on the terminal like this:
@@ -26,6 +25,8 @@ For example by using curl on the terminal like this:
 }
 
 There are also online editors, e.g. https://truben.no/latex/bibtex/#
+
+Information about the dataset as a whole and how to cite it is kept in metadata.yaml.
 
 
 ## Github webhooks

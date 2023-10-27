@@ -1,0 +1,29 @@
+ID	parentID	basionymID	status	scientificName	authorship	rank	genus	specificEpithet	infraspecificEpithet	referenceID	publishedInPage	code	nameStatus	originalSpelling	gender	genderAgreement	extinct	environment	link	remarks
+1			accepted	Plantae		kingdom						botanical								
+2	1		synonym	Viridae		kingdom						botanical			
+10	1		accepted	Asteraceae		family						botanical								
+11	10		synonym	Compositae		family						botanical								
+20	10		accepted	Cichorioideae		subfamily						botanical								
+30	20		accepted	Cichorieae		tribe						botanical								
+31	20		accepted	Gundelieae		tribe						botanical								
+100	20		accepted	Platycarpha		genus						botanical								
+101	30		accepted	Crepis	L.	genus						botanical								
+102	30		accepted	Leontodon		genus						botanical								
+110	31		accepted	Gundelia	L.	genus						botanical								
+1000	100		accepted	Platycarpha glomerata	(Thunberg) A. P. de Candolle	species	Platycarpha	glomerata				botanical								
+1001	101		accepted	Crepis bakeri	Greene	species	Crepis	bakeri		greene1895	73	botanical							https://beta.ipni.org/n/69325-2	
+1002	101		accepted	Crepis occidentalis	Nutt.	species	Crepis	occidentalis				botanical								
+1005	102		accepted	Leontodon anomalus		species	Leontodon	anomalus				botanical								
+1006	102		accepted	Leontodon taraxacoides	(Vill.) Mérat	species	Leontodon	taraxacoides				botanical								
+1006-s1	1006		synonym	Leontodon leysseri		species	Leontodon	leysseri				botanical								
+1006-s2	1006		synonym	Leontodon saxatilis		species	Leontodon	saxatilis				botanical								
+1006-s3	1006		synonym	Leonida taraxacoida	Vill.	species	Leonida	taraxacoida				botanical								
+1010	110		accepted	Gundelia rosea	L.	species	Gundelia	rosea				botanical								
+1011	110		accepted	Gundelia tournefortii	L.	species	Gundelia	tournefortii				botanical								
+1001a	1001		accepted	Crepis bakeri subsp. bakeri		subspecies	Crepis	bakeri	bakeri			botanical								
+1001b	1001		accepted	Crepis bakeri subsp. cusickii	(Eastw.) Babc. & Stebbins	subspecies	Crepis	bakeri	cusickii			botanical								
+1001c	1001		accepted	Crepis bakeri subsp. idahoensis	Babc. & Stebbins	subspecies	Crepis	bakeri	idahoensis			botanical								
+fake	1		accepted	Paulownia × tomentosa subsp. tella f. pasta	(Carl & Ruth) Frankenstein ex Semmelrogge	forma				frank	87	botanical	conserved						https://herbaria.plants.ox.ac.uk/bol/plants400/profiles/OP/Paulownia	Unclear name origin
+hybrid	1		accepted	Quercus robur x Q. macrocarpa		species						botanical	LEGITIMATE						http://www.heritageseedlings.com/page_608_40/quercus-heritage-q.-robur-x-q.-macrocarpa-clemons	commercial seeds
+virus	110		accepted	Acanthocystis turfacea chlorella virus 1								virus								
+cult	110		accepted	Clematis 'Sapphire Indigo'		species													http://plants.thegrowingplace.com/12120014/Plant/6164/Sapphire_Indigo_Clematis/	
