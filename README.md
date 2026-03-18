@@ -34,7 +34,7 @@ Once the dataset is created in ChecklistBank (CLB), Github webhooks can be used 
 whenever a commit to the repository happens. Configure:
 
  a) the dataset access URL in CLB to point to the github repo zip archive, e.g. https://github.com/CatalogueOfLife/data-vespoidea/archive/refs/heads/master.zip
- b) the github repo webhook in settings to point to http://api.checklistbank.org/importer/{DATASET_KEY}/github
+ b) the github repo webhook in settings to point to https://api.checklistbank.org/importer/{DATASET_KEY}/github
  c) configure github to use a secret that the CLB admin hands over to you confidently. Please contact mdoering@gbif.org for this!
 
 
